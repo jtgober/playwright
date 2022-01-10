@@ -12,4 +12,4 @@ exports.ClassAttributePage = class ClassAttributePage {
     async clickBlueButton() {
         await this.blueButton.click()
     }
-}//test
+}
