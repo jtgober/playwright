@@ -20,6 +20,6 @@ exports.ProgressBarPage = class ProgressBarPage {
     }
 
     async progressBarPercent() {
-        return await this.progressBar.innerText()
+        return await this.progressBar.innerHTML()
     }
 }
